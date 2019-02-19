@@ -17,7 +17,39 @@ public class LifecycleLogActivity extends Activity {
         Log.i("hslu_mobApp", "onCreate() aufgerufen");
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("hslu_mobApp", "onStart() aufgerufen");
+    }
 
-    // TODO: Add further implementions of onX-methods.
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.i("hslu_mobApp", "onRestart() aufgerufen");
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("hslu_mobApp", "onResume() aufgerufen");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("hslu_mobApp", "onPause() aufgerufen");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i("hslu_mobApp", "onStop() aufgerufen");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("hslu_mobApp", "onDestroy() aufgerufen");
+    }
 }

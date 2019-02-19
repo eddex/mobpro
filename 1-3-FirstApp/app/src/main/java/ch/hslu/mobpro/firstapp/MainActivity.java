@@ -1,6 +1,7 @@
 package ch.hslu.mobpro.firstapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -8,11 +9,7 @@ import android.widget.TextView;
 
 /**
  * The main activity, displays some buttons.
- *
- * @author Ruedi Arnold
  */
-
-
 public class MainActivity extends AppCompatActivity {
 
     private static final int MY_REQUEST_CODE = 23; // Arbitrary number
@@ -29,15 +26,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startLogActivity(View v) {
-        // TODO: start LifecylceLogActivity
+        Intent intent = new Intent(this, LifecycleLogActivity.class);
+        startActivity(intent);
     }
 
     public void startBrowser(View v) {
-        // TODO: start Browser with http://www.hslu.ch
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("https://github.com/eddex/mobpro"));
+        startActivity(intent);
     }
 
     public void startQuestionActivity(View v) {
-        // TODO: start QuestionActivity with question and wait for result.
+        Intent intent = new Intent(this, QuestionActivity.class);
+        intent.putExtra("question", "was ist der sinn des lebens???");
+        startActivityForResult(intent, MY_REQUEST_CODE);
     }
 
     @Override

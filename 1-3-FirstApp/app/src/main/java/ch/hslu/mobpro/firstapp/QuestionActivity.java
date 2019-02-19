@@ -11,8 +11,6 @@ import android.widget.TextView;
 
 /**
  * Asks the user a question and returns the answer to the caller.
- *
- * @author Ruedi Arnold
  */
 public class QuestionActivity extends Activity {
 

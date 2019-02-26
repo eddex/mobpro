@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">UI-Demo</string>
+    <string name="rb_linear_layout">LinearLayout</string>
+    <string name="rb_relative_layout">RelativeLayout</string>
+    <string name="lb_exercise_1">Aufgabe 1: LinearLayout &amp; ConstraintLayout</string>
+    <string name="title_activity_layout_demo">LayoutDemoActivity</string>
+    <string name="lb_linear_layout_horizontal">Linear Layout Horizontal:</string>
+    <string name="lb_linear_layout_vertical">Linear Layout Vertical</string>
 </resources>

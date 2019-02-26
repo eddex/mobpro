@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_linear_layout_vertical" />
+
+        <TextView
+            android:id="@+id/GELB"
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:background="@color/GELB" />
+
+        <TextView
+            android:id="@+id/ROT"
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/GRUEN"
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/BLAU"
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:background="@color/design_default_color_primary_dark" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/app_icon_size" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_linear_layout_vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ROT3"
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:layout_weight="1"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/BLAU2"
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:layout_weight="1"
+                android:background="@color/design_default_color_primary_dark" />
+
+            <TextView
+                android:id="@+id/GELB3"
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:layout_weight="1"
+                android:background="@color/GELB" />
+
+            <TextView
+                android:id="@+id/GRUEN3"
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

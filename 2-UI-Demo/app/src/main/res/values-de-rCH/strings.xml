@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ü-Ei Demonschtrazion</string>
+    <string name="rb_linear_layout">Linears - Läiöut</string>
+    <string name="rb_relative_layout">Relativs - Läiöut</string>
+    <string name="lb_exercise_1">Uufgab 1: Linears - Läiöut &amp; so</string>
+    <string name="title_activity_layout_demo">LäyoutDemoActivity</string>
+    <string name="lb_linear_layout_horizontal">Lineär Läiout Horizontal:</string>
+    <string name="lb_linear_layout_vertical">Lineär Läiout Vertical</string>
+    <string name="lb_exercise_2">UUFGAB 2 DE-RCH !!!</string>
+</resources>

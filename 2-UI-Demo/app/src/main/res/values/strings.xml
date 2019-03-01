@@ -6,4 +6,5 @@
     <string name="title_activity_layout_demo">LayoutDemoActivity</string>
     <string name="lb_linear_layout_horizontal">Linear Layout Horizontal:</string>
     <string name="lb_linear_layout_vertical">Linear Layout Vertical</string>
+    <string name="lb_exercise_2">AUFGABE 2 !!!</string>
 </resources>

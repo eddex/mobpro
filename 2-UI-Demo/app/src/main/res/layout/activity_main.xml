@@ -46,6 +46,17 @@
                     android:text="@string/rb_relative_layout"
                     android:onClick="relativeLayoutButtonClicked"/>
             </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fab_margin" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/spinner"
+                android:spinnerMode="dialog" />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

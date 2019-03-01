@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="spinner">
+        <item>ja 1</item>
+        <item>ja 2</item>
+        <item>ja 3</item>
+        <item>ja 4</item>
+        <item>ja 5</item>
+    </string-array>
+</resources>

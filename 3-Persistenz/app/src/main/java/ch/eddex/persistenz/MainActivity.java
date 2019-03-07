@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,5 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
         TextView label = this.findViewById(R.id.lb_resume_count);
         label.setText(String.format(getString(R.string.test_resume_counter), Integer.toString(count)));
+    }
+
+    public void editTeaPreferenceClick(View view) {
+
     }
 }

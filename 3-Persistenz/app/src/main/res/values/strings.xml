@@ -5,4 +5,5 @@
     <string name="preferences">Preferences</string>
     <string name="resume_count_preference_key">ResumeCount</string>
     <string name="test_resume_counter">MainActivity.onResume() wurde seit der Installation dieser App %s Mal aufgerufen.</string>
+    <string name="title_activity_app_preferences">AppPreferencesActivity</string>
 </resources>

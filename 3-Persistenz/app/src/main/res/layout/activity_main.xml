@@ -42,7 +42,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/label_margin"
-                android:text="@string/tee_pr_ferenzen_editieren" />
+                android:text="@string/tee_pr_ferenzen_editieren"
+                android:onClick="editTeaPreferenceClick"/>
 
             <Button
                 android:id="@+id/btn_reset_preferences"

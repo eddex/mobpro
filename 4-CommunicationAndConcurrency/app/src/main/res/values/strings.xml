@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ComAndCon</string>
+    <string name="communication">Communication</string>
+    <string name="start_asyncmultitask">start asyncmultitask</string>
+    <string name="start_demothread">start demothread</string>
+    <string name="start_asyncdemotask">start asyncdemotask</string>
+    <string name="block_ui_for_7_seconds">block ui for 7 seconds</string>
+    <string name="http_demos">HTTP DEMOS</string>
+    <string name="communication_with_http_server">Communication with HTTP server</string>
+    <string name="concurrency">Concurrency</string>
 </resources>

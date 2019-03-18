@@ -8,4 +8,5 @@
     <string name="http_demos">HTTP DEMOS</string>
     <string name="communication_with_http_server">Communication with HTTP server</string>
     <string name="concurrency">Concurrency</string>
+    <string name="title_activity_http_demos">HttpDemosActivity</string>
 </resources>

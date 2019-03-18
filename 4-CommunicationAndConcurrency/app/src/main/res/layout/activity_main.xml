@@ -26,7 +26,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
-            android:text="@string/communication_with_http_server" />
+            android:text="@string/communication_with_http_server"
+            android:onClick="openHttpView"/>
 
         <Button
             android:id="@+id/btn_http_demos"
@@ -64,14 +65,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
-            android:text="@string/start_demothread" />
+            android:text="@string/start_demothread"
+            android:onClick="startDemoThreadOnClick"/>
 
         <Button
             android:id="@+id/btn_asyncmultitask"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
-            android:text="@string/start_asyncmultitask" />
+            android:text="@string/start_asyncmultitask"
+            android:onClick="asyncTaskWithProgress"/>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

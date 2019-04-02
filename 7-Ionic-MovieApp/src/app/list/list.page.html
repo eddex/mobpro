@@ -4,19 +4,16 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      List
+      Favourite Movies
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
-      {{item.title}}
-      <div class="item-note" slot="end">
-        {{item.note}}
-      </div>
+    <ion-item (click)="onClick(movie)" *ngFor="let movie of movies">
+      <ion-icon name="film" slot="start"></ion-icon>
+      {{movie.Title}}
     </ion-item>
   </ion-list>
   <!--

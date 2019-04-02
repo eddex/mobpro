@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Movie } from '../interfaces/Movie';
+import { DataHelper } from '../helpers/DataHelper';
 
 @Component({
   selector: 'app-movie-details',
@@ -10,11 +11,11 @@ import { Movie } from '../interfaces/Movie';
 export class MovieDetailsPage implements OnInit {
 
   public movie: Movie;
-  constructor(public router: Router) { }
+  constructor(public router: Router, public dataHelper: DataHelper) { }
 
   ngOnInit() {
     const url = this.router.url;
     const dataBase64 = url.split('/')[2].split('%')[0];
-    this.movie = <Movie>JSON.parse(decodeURIComponent(escape(atob(dataBase64))));
+    this.movie = this.dataHelper.decodeData(dataBase64);
   }
 }

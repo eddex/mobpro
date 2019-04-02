@@ -1,9 +1,23 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>search</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Search
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-item>
+    <ion-label style="font-weight: bold;">Search for a movie by its title!</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Search:</ion-label>
+    <ion-input placeholder="enter movie title..." [(ngModel)]="inputMovieTitle"></ion-input>
+  </ion-item>
+
+  <ion-button (click)="searchForMovie()" expand="full" size="large" color="primary">search!</ion-button>
 
 </ion-content>

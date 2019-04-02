@@ -26,11 +26,6 @@ export class AppComponent {
       icon: 'search'
     },
     {
-      title: 'Movie Details',
-      url: '/movie-details',
-      icon: 'paper'
-    },
-    {
       title: 'Native',
       url: '/native',
       icon: 'phone-portrait'

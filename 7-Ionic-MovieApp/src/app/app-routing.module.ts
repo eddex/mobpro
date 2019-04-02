@@ -16,7 +16,7 @@ const routes: Routes = [
     loadChildren: './list/list.module#ListPageModule'
   },
   { path: 'search', loadChildren: './search/search.module#SearchPageModule' },
-  { path: 'movie-details', loadChildren: './movie-details/movie-details.module#MovieDetailsPageModule' },
+  { path: 'movie-details/:details', loadChildren: './movie-details/movie-details.module#MovieDetailsPageModule' },
   { path: 'native', loadChildren: './native/native.module#NativePageModule' }
 ];
 
